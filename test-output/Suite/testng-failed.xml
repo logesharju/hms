@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="HMS.ExtendReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="HMS ADMIN LOGIN TESTCASES(failed)">
+    <classes>
+      <class name="homepage.homepagetest">
+        <methods>
+          <include name="homepagetitle"/>
+          <include name="validatetitle"/>
+          <include name="testdown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- homepage.homepagetest -->
+      <class name="frontoffice.frontofficetest">
+        <methods>
+          <include name="testdown"/>
+          <include name="frntoffname"/>
+          <include name="validatetitle"/>
+          <include name="visbookclick"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- frontoffice.frontofficetest -->
+      <class name="visiterpage.visiterpagetest">
+        <methods>
+          <include name="teardown"/>
+          <include name="asvisclick"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- visiterpage.visiterpagetest -->
+      <class name="hmsadminlogin.loginpagetest">
+        <methods>
+          <include name="testdown"/>
+          <include name="verifytitle"/>
+          <include name="setup"/>
+          <include name="logo"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- hmsadminlogin.loginpagetest -->
+    </classes>
+  </test> <!-- HMS ADMIN LOGIN TESTCASES(failed) -->
+</suite> <!-- Failed suite [Suite] -->

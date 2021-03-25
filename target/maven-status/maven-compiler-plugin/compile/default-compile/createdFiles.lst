@@ -1,0 +1,10 @@
+HMSbase\testbase.class
+HMSutil\commonUtility.class
+HMSpage\frontoffice.class
+HMSpage\homepage.class
+HMSpage\visiterpage.class
+HMSpage\loginpage.class
+HMS\ExtendReportListener\ExtentReporterNG.class
+HMSutil\Datepicker.class
+HMSutil\WebEventListener.class
+HMSutil\ReadExcel.class
